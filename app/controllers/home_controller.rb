@@ -1,8 +1,8 @@
 class HomeController < ApplicationController
     def index
-        @title="ホーム"
+      @article = Article.first
     end
     def about
-        @title="アバウト"
+        @article = Article.first
     end
 end
